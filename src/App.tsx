@@ -5,7 +5,7 @@ import MapComponent from './components/MapComponent';
 
 // Importar logos (reemplaza con tus archivos reales)
 import logoPrincipal from './assets/logos/Logo2025.jpg';
-import fondoPrincipal from './assets/Imagenes2025/FondoPrincipal.jpg';
+import fondoPrincipal from './assets/Imagenes2025/fondito2.jpg';
 // Importar imágenes de nosotros
 import nosotros1 from './assets/Imagenes2025/Nosotros1.jpg';
 import nosotros2 from './assets/Imagenes2025/Nosotros2.jpg';
