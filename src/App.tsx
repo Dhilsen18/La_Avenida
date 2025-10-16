@@ -1773,7 +1773,7 @@ const AboutUs = () => {
 
     {/* Sección de Estadísticas */}
     <MotionSection 
-      className="about-stats-section relative z-20 py-20 bg-gradient-to-br from-slate-900/70 to-blue-900/70 backdrop-blur-sm"
+      className="about-stats-section relative z-20 pt-32 pb-20 bg-gradient-to-br from-slate-900/70 to-blue-900/70 backdrop-blur-sm"
       data-aos="fade-up"
     >
       <div className="container mx-auto px-4">
