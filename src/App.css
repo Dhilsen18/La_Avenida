@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f2ed;
+  color: #333;
+}
+
+/* Asegurar que no haya fondos blancos no deseados */
+.home-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home-page * {
+  box-sizing: border-box;
+}
+
+/* Custom Tailwind Colors (Optional - if not in tailwind.config.js) */
+:root {
+  --color-cream-light: #fae8e7;
+  --color-gold-dark: #d4a762;
+  --color-gold-light: rgba(212, 167, 98, 0.15);
+  --color-brown-dark: #8d6e63;
+  --color-brown-light: #a0522d;
+  --color-green-dark: #4a5c4e;
+  --color-green-medium: #6f8072;
+  --color-pink-light: #f7dada;
+  --color-red-400: #e57373;
+}
+
+.font-dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Animations */
+@keyframes slideInDown {
+  from { transform: translateY(-100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slideInDown {
+  animation: slideInDown 0.8s ease-out;
+}
+
+/* Estilos para Leaflet */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Ocultar completamente la atribución de Leaflet */
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+/* Estilos para el carrusel de navegación */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Efectos de scroll suave */
+.overflow-x-auto {
+  scroll-behavior: smooth;
+}
