@@ -29,6 +29,7 @@ import destacado3 from './assets/Imagenes2025/Destacado3.jpg';
 import destacado4 from './assets/Imagenes2025/Destacado 4.jpg';
 import destacado5 from './assets/Imagenes2025/Destacado5.jpg';
 import bowl from './assets/Imagenes2025/bowl.jpg';
+import hallow from './assets/Imagenes2025/hallow.jpg';
 import Enc1 from './assets/Imagenes2025/Enc1.jpg';
 import Enc2 from './assets/Imagenes2025/Enc2.jpg';
 import Enc3 from './assets/Imagenes2025/Enc3.jpg';
@@ -594,7 +595,7 @@ const Home = () => {
             <div className="relative h-80 lg:h-96 rounded-3xl overflow-hidden shadow-2xl hover:shadow-3xl hover:scale-101 transition-all duration-500 cursor-pointer group">
               {/* Imagen de Halloween */}
               <img 
-                src="/src/assets/Imagenes2025/hallow.jpg" 
+                src={hallow} 
                 alt="Halloween en La Avenida"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
               />
