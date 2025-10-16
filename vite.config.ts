@@ -19,6 +19,9 @@ export default defineConfig({
         }
       }
     },
-    chunkSizeWarningLimit: 2000
-  }
+    chunkSizeWarningLimit: 2000,
+    assetsDir: 'assets',
+    sourcemap: false
+  },
+  base: './'
 })
